@@ -31,27 +31,20 @@ closeSearch.addEventListener("click", () => {
     setTimeout(() => {
         iconMedia.classList.remove("d-none");
 
-    }, 1000);
+    }, 500);
 });
 
-// const baImages = document.querySelectorAll(".blog-ba .baImages");
 
-// const observer = new IntersectionObserver((entries) => {
-//     entries.forEach((entry) => {
+window.addEventListener("load", () => {
+    const groups = document.querySelectorAll(".sliders");
 
-//         if (entry.isIntersecting) {
-//             const img = entry.target.querySelector(".ba img");
-//             const text = entry.target.querySelector(".text-Ba");
+    console.log(
+        "Group 1:",
+        groups[0].getBoundingClientRect().width
+    );
 
-//             img?.classList.add("active");
-//             text?.classList.add("active");
-//         }
-
-//     });
-// }, {
-//     threshold: 0.5
-// });
-
-// baImages.forEach((item) => {
-//     observer.observe(item);
-// });
+    console.log(
+        "Group 2:",
+        groups[1].getBoundingClientRect().width
+    );
+});

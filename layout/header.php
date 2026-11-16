@@ -6,6 +6,7 @@
     <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'> -->
     <link rel="icon" type="image/png" href="./image/logo_dps.png">
     <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="./css/theme.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <title>DPS-printing</title>
 </head>

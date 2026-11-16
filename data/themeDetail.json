@@ -1,0 +1,64 @@
+
+
+[
+    {   "title":"CREATIVE DESIGN & BRANDING",
+        "service":
+        [
+            " Graphic Design",
+            "Creative Concepts",
+            "Logo & Brand Identity",
+            "Visual Communication",
+            "Marketing & Advertising Design" 
+        ]
+    },
+    {   "title":"PRINTING PRODUCTS ",
+        "service":
+        [
+            "Commercial Printing Products",
+            "Stickers, Labels & Tags",
+            "Packaging Solutions",
+            "Logistics & Industrial Printing",
+            "Specialty & Security Printing"
+        ]
+    },
+    {   "title":"ADVERTISING & DISPLAY",
+        "service":
+        [   "Digital OOH Advertising",
+            "Billboard Advertising",
+            "Advertising Display Products",
+            "Signage & Signboards",
+            "Times Square Advertising"
+        ]
+    },
+    {   "title":"EVENT & EXHIBITION SOLUTIONS",
+        "service":
+        [
+            "Event Display Products",
+            "Exhibition Displays",
+            "Decorative Installations",
+            "Large-Scale Structures",
+            "Event Branding & Displays"
+        ]
+    },
+    {   "title":"PROMOTIONAL & CUSTOMIZED PRODUCTS",
+        "service":
+        [
+            "Customized Merchandise",
+            "Corporate Gifts",
+            "Custom Materials & Products",
+            "Promotional Products",
+            "Branded Accessories"
+        ]
+    },
+    {    "title":"ARCHITECTURE & INTERIOR DESIGN",
+        "service":
+        [
+            "Architectural Design",
+            "Interior & Exterior Design",
+            "Building Facade Design",
+            "3D Design & Visualization",
+            "Fabrication & Installation"
+        ]
+    }
+  
+]
