@@ -1,14 +1,21 @@
 <!-- ------------Theme page------------- -->
 <div class="col-12 theme-page">
-    <div class="col-12 theme-banner">
-        <div class="col-12 theme-gradient d-flex justify-content-center align-items-center">
-            <div class="col-8 m-auto theme-decription">
+    <div class="col-12 blog-theme-banner">
+        <div class="col-12 theme-banner">
+            <div class="col-12 theme-gradient d-flex justify-content-center align-items-center">
+            <!-- nothing -->
+            </div>
+        </div>
+        <div class="col-8 m-auto theme-decription">
+            <div class="txt">
                 <div class="theme-title"><h1>What DPS Printing Studio can do </h1></div>
-                <div class="theme-subtitle  mt-5 mb-5">
+                <div class="col-6 theme-subtitle  mt-5 mb-5">
                     <p>We bring ideas to life through creative design, professional printing, advertising, and architectural solutions.        
-                    <br> Combining innovation, technical expertise, and quality craftsmanship, we deliver impactful solutions tailored 
-                    <br> to every project.</p>
+                        Combining innovation, technical expertise, and quality craftsmanship, we deliver impactful solutions tailored 
+                        to every project.</p>
                 </div>
+            </div>
+            <div class="col-json">
                 <div class="col-12 blog-theme-service">
                     <?php 
                         $data = json_decode(file_get_contents("./data/themeDetail.json"), true);
@@ -31,43 +38,50 @@
             </div>
         </div>
     </div>
+    
     <!-- --------blog-theme-our-------- -->
     <div class="col-12 blog-theme-our">
-        <div class="col-6 theme-our m-auto text-center">
+        <div class="col-5 theme-our m-auto text-center">
                 <h5>OUR STRAGTEY</h5>
                 <span>From Vision Reality</span>
                 <p>We combine technical accuracy, artistic know-how, and strategic thinking to provide all-encompassing 
-                    <br> solutions for design, printing, advertising, and architecture. Every project, from conception to execution,
-                    <br> demonstrates our dedication to excellence, quality, and innovation.
+                     solutions for design, printing, advertising, and architecture. Every project, from conception to execution,
+                     demonstrates our dedication to excellence, quality, and innovation.
                 </p>
-                <div class="bar_set m-auto mt-5 mb-5">&nbsp;</div>
+                <div class="bar_set_one m-auto mt-5 mb-5">&nbsp;</div>
                 <a href="#"> FINDE MORE Services <i class="fa-solid fa-arrow-right-long"></i></a>
         </div>
     </div>
     <!-- --------blog-theme-design--------- -->
     <div class="col-12  blog-theme-design d-flex">
         <div class="col-6 theme-txt-design d-flex justify-content-center align-items-center">
-            <div class="col-8 theme-title-design">
+            <div class="col-7 theme-title-design">
                 <h5>CREATIVE DESIGN & BRANDING</h5>
                 <p>We offer innovative branding and design solutions that turn concepts into unique visual 
-                <br>experiences. Our team creates powerful designs that enhance brand identification by <br> fusing technological know-how, artistic talent, and creative thought.</p>
-                <p>From hand-drawn drawings and graphic design to digital artwork and 3D modeling, we <br> use creative teamwork and inventive design to bring ideas to life. We create distinctive <br> visual solutions that are suited to each client's requirements by fusing a variety of talents <br> and viewpoints.</p>
+                    experiences. Our team creates powerful designs that enhance brand identification by 
+                    fusing technological know-how, artistic talent, and creative thought.
+                </p>
+                <p>From hand-drawn drawings and graphic design to digital artwork and 3D modeling, we 
+                    use creative teamwork and inventive design to bring ideas to life. We create distinctive 
+                    visual solutions that are suited to each client's requirements by fusing a variety of talents 
+                    and viewpoints.
+                </p>
             </div>
         </div>
         <div class="col-6 theme-design-img"><img src="./image/img-theme/dsign.jpg" alt=""></div>
     </div>
     <!-- -------blog-die-cutting-------- -->
     <div class="col-12 blog-die-cutting">
-        <div class="col-6 theme-die-cut m-auto text-center">
+        <div class="col-5 theme-die-cut m-auto text-center">
             <h5>DIE - CUTTING</h5>
             <div class="txt mt-5 mb-5">
-                <P>our services convert printed materials into unique shapes and sizes. To satisfy various product needs, we create precise forms and </P>
-                <P>reliable outcomes using sophisticated cutting equipment and exacting methods.</P>
+                <P>our services convert printed materials into unique shapes and sizes. To satisfy various product needs, we create precise forms and 
+                reliable outcomes using sophisticated cutting equipment and exacting methods.</P>
             </div>
             <div class="txt">
-                <p>At every step, our production team collaborates to properly prepare materials, set up cutting plates, modify machine settings, and </p>
-                <p>run the machinery. Team members keep an eye on the cutting process, verify alignment, eliminate extra materials, and examine </p>
-                <p>final products to guaranty precision and quality throughout manufacturing.</p>
+                <p>At every step, our production team collaborates to properly prepare materials, set up cutting plates, modify machine settings, and 
+                run the machinery. Team members keep an eye on the cutting process, verify alignment, eliminate extra materials, and examine 
+                final products to guaranty precision and quality throughout manufacturing.</p>
             </div>
             <p></p>
         </div>
@@ -77,36 +91,36 @@
         <div class="col-12 digital-printing-img"><img src="./image/img-theme/cutting.png" alt=""></div>
         <div class="col-12">
             <div class="col-9 digital-printing-text m-auto d-flex justify-content-between">
-                <div class=" digital-text ">
+                <div class="col- digital-text ">
                     <h5>DIFITAL PRINTING</h5>
                     <div class="txt">
                         <p>Our printing and production services cover a wide range of printing technologies, including digital,
-                            <br>offset, UV, flexographic, sublimation, and 3D printing, as well as laser marking and specialized printing. 
-                            <br>Equipped with advanced Japanese printing machines, we produce various printed materials and 
-                            <br>customized products with precision and consistent quality.
+                            offset, UV, flexographic, sublimation, and 3D printing, as well as laser marking and specialized printing. 
+                            Equipped with advanced Japanese printing machines, we produce various printed materials and 
+                            customized products with precision and consistent quality.
 
                         </p>
                     </div>
                     <div class="txt">
                         <p>Our skilled team works together throughout the production process, from preparing materials and
-                            <br>setting up machines to operating equipment and checking finished products. With technical 
-                            <br>knowledge and careful attention to detail, we ensure every product meets our quality standards. 
+                            setting up machines to operating equipment and checking finished products. With technical 
+                            knowledge and careful attention to detail, we ensure every product meets our quality standards. 
                         </p>
                     </div>
                 </div>
                 <div class="bar_set_two">&nbsp;</div>
-                <div class=" digital-text">
+                <div class="col- digital-text">
                     <h5>FINSHING & ASSEMBLY</h5>
                     <div class="txt">
                         <p>Our finishing and assembly services include cutting, trimming, laminating, folding, binding, and
-                            <br>assembling a wide range of printed products. These processes enhance product appearance, 
-                            <br>quality, and durability.
+                            assembling a wide range of printed products. These processes enhance product appearance, 
+                            quality, and durability.
                         </p>
                     </div>
                     <div class="txt">
                         <p>Our team works together to prepare materials, operate finishing machines, assemble products, and 
-                            <br>inspect the final results. With skilled workmanship and attention to detail, we ensure every product 
-                            <br>is properly finished and ready for delivery.
+                            inspect the final results. With skilled workmanship and attention to detail, we ensure every product 
+                            is properly finished and ready for delivery.
                         </p>
                     </div>
                 </div>
@@ -119,14 +133,14 @@
     </div>
     <!-- ----------blog-them-text-3------ -->
     <div class="col-12 blog-theme-text-3">
-        <div class="col-6 m-auto theme-txt-3 text-center">
+        <div class="col-5 m-auto theme-txt-3 text-center">
             <h5>INSTALLATION & EXECUTION</h5>
             <div class="txt mt-5">
                 <p>
                     From banner installation and signage mounting to advertising structures, event displays, and architectural projects, our team
-                    <br>handles a wide range of on-site work. We work closely to manage site preparation, material handling, measurements, equipment 
-                    <br>setup, banner mounting, and structural assembly. Through effective coordination, technical expertise, and careful supervision, we 
-                    <br>ensure every project is completed safely, accurately, and according to project requirements.
+                    handles a wide range of on-site work. We work closely to manage site preparation, material handling, measurements, equipment 
+                    setup, banner mounting, and structural assembly. Through effective coordination, technical expertise, and careful supervision, we 
+                    ensure every project is completed safely, accurately, and according to project requirements.
                 </p>
             </div>
         </div>
@@ -135,12 +149,12 @@
     <div class="col-12 blog-theme-banner-3">
         <div class="col-12 image"><img src="./image/img-theme/banner3.png" alt=""></div>
         <div class="col-12 blog-theme-text-4">
-            <div class="col-6 m-auto theme-txt-4 text-center">
+            <div class="col-5 m-auto theme-txt-4 text-center">
                 <h5>INSTALLATION & EXECUTION</h5>
                 <div class="txt mt-5 mb-5">
                     <p>
                        We are committed to delivering quality products and reliable services through modern technology, skilled teamwork, and pro
-                        <br>fessional support. Our goal is to make every project smooth, efficient, and completed to your expectations. 
+                        fessional support. Our goal is to make every project smooth, efficient, and completed to your expectations. 
                     </p>
                 </div>
             </div>

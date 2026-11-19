@@ -3,33 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* @font-face {
-    font-family: "KozGo";
-    src: url("../fonts/KozGoPr6N-ExtraLight.otf") format("opentype");
-    font-weight:bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Niradei";
-    src: url("../fonts/Niradei-ExtraBold.ttf") format("opentype");
-    font-weight: bold;
-    font-style: normal;
-} */
- /* @font-face {
-    font-family: "KozGo";
-    src: url("../fonts/KozGoPro-Regular.otf") format("opentype");
-    font-style: normal;
-} */
 /* --------------------- */
 body{
-    font-family: "KozGo",sans-serif;
+    /* font-family: "KozGo",sans-serif; */
     color:#3D2314 ;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: "Niradei",sans-serif;
 }
 a{
-    text-emphasis: none;
+    text-decoration: none;
 }
 
 .theme-page {
@@ -39,20 +22,26 @@ a{
 }
 .theme-banner{
     width: 100%;
-    min-height:100vh;
+    height:100vh;
     background-image: url('../image/img-theme/banner.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
 }
 .theme-gradient{
     position: absolute;
+    width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.8); 
+    /* top: 0;
+    left: 0; */
+    background-image: url("../image/icons/ch.png");
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+.theme-decription{
+    position: absolute;
+    top: 18%;
+    left: 15%;
 }
 .theme-title h1,
 .theme-subtitle p,
@@ -91,7 +80,7 @@ p{
     font-size: 1.2rem !important;
     margin: 40px 0px ;
 }
-.bar_set{
+.bar_set_one{
     width: 1px;
     height: 100px;
     background-color: #3D2314;
@@ -131,7 +120,7 @@ p{
     padding:150px 0px;
 }
 .digital-printing-text .digital-text{
-    /* width: 48%; */
+    width: 45%;
     display: flex;
     flex-direction: column;
     gap:20px;
